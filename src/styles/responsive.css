@@ -1,0 +1,557 @@
+/* ================= 1200px ================= */
+@media (max-width: 1200px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ================= 992px ================= */
+@media (max-width: 992px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero-visual {
+    width: 100%;
+  }
+
+  .hero-visual {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* ================= 768px ================= */
+@media (max-width: 768px) {
+  .hero {
+    padding: 70px 20px 90px;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .stats-showcase {
+    padding: 30px 0 35px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-card {
+    min-height: 120px; /* 150 thoda zyada lagta hai */
+  }
+
+  .stats-icon {
+    font-size: 40px;
+  }
+
+  .stats-content-box h3 {
+    font-size: 32px;
+    margin: 12px 0 8px;
+    padding-bottom: 8px;
+  }
+
+  .stats-content-box p {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-showcase {
+    padding: 36px 0 44px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-card {
+    min-height: 150px;
+  }
+
+  .stats-icon {
+    font-size: 52px;
+  }
+
+  .stats-content-box h3 {
+    font-size: 44px;
+    margin: 24px 0 16px;
+    padding-bottom: 14px;
+  }
+
+  .stats-content-box p {
+    font-size: 20px;
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .about-visuals {
+    position: static;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-showcase {
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .about-kicker {
+    margin-bottom: 8px;
+  }
+
+  .about-content h2 {
+    margin-bottom: 20px;
+  }
+
+  .about-content h3 {
+    margin: 22px 0 10px;
+  }
+
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+  }
+
+  .about-exp-card {
+    padding: 20px 18px 24px;
+    margin-bottom: 20px;
+  }
+
+  .about-exp-card h3 {
+    font-size: 56px;
+  }
+
+  .about-exp-card p {
+    font-size: 28px;
+  }
+
+  .about-accent-line {
+    height: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .industry-header {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+
+  .industry-practice-card {
+    min-height: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  .industry-practices::before {
+    width: 220px;
+    height: 220px;
+    left: 10px;
+    top: 16px;
+  }
+
+  .industry-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .industry-practice-card {
+    padding: 24px 22px 18px;
+    min-height: auto;
+  }
+
+  .industry-card-icon {
+    font-size: 52px;
+    margin-bottom: 14px;
+  }
+
+  .industry-practice-card h3 {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .industry-practice-card p {
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+
+  .industry-read-more {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .planning-cta-inner {
+    min-height: auto;
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .planning-copy h2 {
+    max-width: 100%;
+  }
+
+  .planning-play {
+    width: 140px;
+    height: 140px;
+    flex-basis: 140px;
+  }
+
+  .planning-play-inner {
+    width: 88px;
+    height: 88px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .planning-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+  }
+
+  .planning-copy p {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .planning-btn {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 22px;
+  }
+
+  .planning-play {
+    align-self: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .planning-cta-inner {
+    min-height: auto;
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .planning-copy h2 {
+    max-width: 100%;
+  }
+
+  .planning-play {
+    width: 140px;
+    height: 140px;
+    flex-basis: 140px;
+  }
+
+  .planning-play-inner {
+    width: 88px;
+    height: 88px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .planning-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+  }
+
+  .planning-copy p {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .planning-btn {
+    width: 100%;
+    padding: 16px 18px;
+    font-size: 22px;
+  }
+
+  .planning-play {
+    align-self: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .locations-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .enquiry-card {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .testimonials-header {
+    padding: 56px 24px 92px;
+  }
+
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .location-icon {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-header {
+    padding: 42px 18px 62px;
+  }
+
+  .locations-enquiry {
+    padding-top: 44px;
+    padding-bottom: 48px;
+  }
+
+  .locations-col h2 {
+    margin-bottom: 12px;
+  }
+
+  .locations-intro {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+
+  .location-card {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .location-card h3 {
+    font-size: 30px;
+  }
+
+  .location-card p {
+    font-size: 18px;
+  }
+
+  .enquiry-card {
+    padding: 24px 16px;
+  }
+
+  .enquiry-card h3 {
+    margin-bottom: 14px;
+  }
+
+  .enquiry-form {
+    gap: 12px;
+  }
+
+  .enquiry-form input,
+  .enquiry-form textarea {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .enquiry-form button {
+    width: 100%;
+    font-size: 22px;
+    padding: 12px 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-brand p {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 42px 0 18px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .footer h3 {
+    margin: 0 0 8px;
+    font-size: 34px;
+  }
+
+  .footer-brand img {
+    max-width: 190px;
+    margin-bottom: 12px;
+  }
+
+  .footer-brand p,
+  .footer-list li,
+  .footer-bottom p {
+    font-size: 18px;
+  }
+
+  .footer-bottom {
+    margin-top: 24px;
+    padding-top: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-page-hero {
+    padding: 40px 0 46px;
+  }
+
+  .about-page-watermark {
+    top: 12px;
+  }
+
+  .about-page-breadcrumb {
+    margin-top: 14px;
+    font-size: 24px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .services-detail-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .services-detail-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .service-detail-card h3 {
+    font-size: 32px;
+  }
+
+  .service-detail-card li {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .career-apply-form {
+    gap: 12px;
+  }
+
+  .career-apply-form input,
+  .career-apply-form textarea {
+    font-size: 18px;
+    padding: 12px 14px;
+  }
+
+  .career-apply-form button {
+    font-size: 22px;
+    padding: 14px 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .industry-detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .industry-detail-grid {
+    gap: 20px;
+  }
+
+  .industry-detail-grid p {
+    font-size: 18px;
+  }
+   }
+}
+
+@media (max-width: 1100px) {
+  .contact-office-card,
+  .contact-form-layout,
+  .office-body {
+    grid-template-columns: 1fr;
+  }
+
+  .office-body iframe {
+    height: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-with-us,
+  .contact-form-locations {
+    padding-top: 40px;
+  }
+
+  .contact-title-wrap {
+    margin-bottom: 24px;
+  }
+
+  .contact-form-card {
+    padding: 28px 20px;
+  }
+
+  .office-header {
+    padding: 12px 16px;
+  }
+
+  .office-body {
+    padding: 16px;
+  }
+
+  .contact-us-form button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+// job list page
+
+
+@media (max-width: 992px) {
+  .jobs-layout {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .jobs-results-panel h2 {
+    margin-top: 24px;
+    text-align: left;
+  }
+}
