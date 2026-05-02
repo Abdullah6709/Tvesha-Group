@@ -2,15 +2,15 @@ import { TbMap2 } from "react-icons/tb";
 
 const locations = [
   {
-    city: "Bhubaneswar",
+    city: "Varanasi",
     address:
-      "2157 ,1st Floor ,Ravi Talkies Rd, Old Town Bhubaneswar, Odisha-751002,India",
+      "SA 6/186 Aktha pahariya Sarnath Varanasi, Uttar Pradesh 221007 India",
   },
-  {
-    city: "Noida",
-    address:
-      "G Block G-75, 4th Floor, Sector 63, Noida, Uttar Pradesh 201301 India",
-  },
+  // {
+  //   city: "Noida",
+  //   address:
+  //     "G Block G-75, 4th Floor, Sector 63, Noida, Uttar Pradesh 201301 India",
+  // },
 ];
 
 export default function TestimonialsContactSection() {
