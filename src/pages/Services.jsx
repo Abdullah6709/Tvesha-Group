@@ -6,32 +6,24 @@ const servicesGroups = [
   {
     title: "Recruitment & Staffing",
     items: [
-      "Permanent and Contract",
-      "Retainership Search",
-      "Contingency Search",
-      "RPO services",
+      "We help you find and hire the right candidates quickly and efficiently.",
     ],
   },
   {
-    title: "HR Consulting",
+    title: "Payroll Management",
     items: [
-      "Payroll & Compliance Outsourcing",
-      "Organization Development",
-      "Salary Benchmarking",
-      "Industry Mapping",
-      "Reference check",
+      "Accurate salary processing with full compliance and hassle-free management.",
     ],
   },
   {
-    title: "HR Technology",
+    title: "HR Policies & Compliance",
     items: [
-      "HRIS (Human Resource Information System)",
-      "PMS(Performance Management System)",
+      "Set up professional HR systems and ensure legal compliance.",
     ],
   },
   {
-    title: "Training Consulting",
-    items: ["Learning & Development", "Customized Training"],
+    title: "Performance Management",
+    items: ["Improve employee productivity with structured evaluation systems."],
   },
 ];
 
@@ -40,12 +32,9 @@ export default function Services() {
     <>
       <Navbar />
 
-      {/* <section className="page-header">
-        <div className="container"> */}
       <section className="about-page-hero">
         <div className="container about-page-hero-inner">
           <h1>Our Services</h1>
-          {/* <p>Comprehensive HR & Recruitment Solutions</p> */}
           <p className="about-page-watermark" aria-hidden="true">
             Services
           </p>
@@ -62,11 +51,9 @@ export default function Services() {
           {servicesGroups.map(({ title, items }) => (
             <article className="service-detail-card" key={title}>
               <h3>{title}</h3>
-              <ul>
-                {items.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
+              {items.map((item) => (
+                <p key={item}>{item}</p>
+              ))}
             </article>
           ))}
         </div>

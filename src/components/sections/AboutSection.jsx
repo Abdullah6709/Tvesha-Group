@@ -36,25 +36,10 @@ export default function AboutSection() {
             <h2>HR Staffing & Recruitment Consultancy</h2>
 
             <p>
-              At <strong>Tvesha Group</strong>, we are a premier human resource
-              staffing and recruitment consulting firm dedicated to delivering
-              comprehensive, end-to-end HR solutions across diverse industries
-              and geographies.
+             <strong>Tvesha Group</strong> is an HR consulting firm focused on helping businesses build strong teams and efficient HR systems. We work closely with our clients to understand their needs and deliver practical, result-driven solutions.
             </p>
 
-            <p>
-              Founded in <strong>2017</strong>, we have steadily grown by
-              adapting to the evolving business landscape, offering tailored
-              staffing and recruitment services that align perfectly with our
-              clients' strategic goals.
-            </p>
-
-            <p>
-              With offices in <strong>Bhubaneswar (Odisha)</strong> and{" "}
-              <strong>Noida (Uttar Pradesh)</strong>, and an expanding global
-              footprint, we partner with organizations of all sizes — delivering
-              unmatched expertise in:
-            </p>
+            
 
             <ul className="about-domain-list">
               <li>Permanent Recruitment</li>

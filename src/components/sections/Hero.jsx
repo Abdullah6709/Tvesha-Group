@@ -7,13 +7,13 @@ export default function Hero() {
 
   const slides = [
     {
-      title: "Top Recruitment Consulting Firm – Tvesha Group",
-      desc: "Leading Recruitment & HR Consulting Company | End-to-End HR Solutions Across Industries",
+      title: "Recruitment & HR Solutions for Growing Businesses",
+      desc: "Helping you hire the right talent faster and build a strong workforce.",
       image: slide1,
     },
     {
       title: "Expert HR Solutions for Growing Businesses",
-      desc: "We provide professional recruitment and HR services tailored to your business needs.",
+      desc: "Helping You Hire the Right Talent, Faster and Smarter.",
       image: slide2,
     },
   ];
@@ -52,7 +52,7 @@ export default function Hero() {
                   <button className="btn-primary">
                     Human Resource Services »
                   </button>
-                  <button className="btn-outline">Read More »</button>
+                  <button className="btn-outline">View Services »</button>
                 </div>
               </div>
 
