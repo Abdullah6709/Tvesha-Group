@@ -6,7 +6,7 @@ import { FiUsers } from "react-icons/fi";
 
 const statsData = [
   {
-    value: "6+",
+    value: "2+",
     label: "Years of Experience",
     icon: GiCoffeeCup,
   },
@@ -22,7 +22,7 @@ const statsData = [
   },
   {
     value: "20+",
-    label: "Industries covered",
+    label: "Happy Clients",
     icon: FiUsers,
   },
 ];

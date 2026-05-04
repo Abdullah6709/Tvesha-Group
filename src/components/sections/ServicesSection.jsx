@@ -66,7 +66,7 @@ export default function ServicesSection() {
             <h2>Industry Practices</h2>
           </div>
           <p className="industry-intro">
-            Tvesha Group was founded in 2017 with vision to provide Hr
+            Tvesha Group was founded in 2024 with vision to provide Hr
             solutions under one roof. Our objectives is to achieve and help our
             clients with fully integrated human resource management solution.
           </p>

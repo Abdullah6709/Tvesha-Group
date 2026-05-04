@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import slide1 from "../../assets/newSlide1.png";
 import slide2 from "../../assets/newSlide2.png";
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
+  const navigate = useNavigate(); // Initialize navigate
 
   const slides = [
     {
@@ -27,6 +29,16 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+  // Navigation handler
+  const handleViewServices = () => {
+    navigate("/services");
+  };
+
+  // Optional: Navigation handler for Human Resource Services
+  const handleHRServices = () => {
+    navigate("/hr-services"); // Change to your desired route
+  };
+
   return (
     <section className="hero">
       <div
@@ -49,10 +61,12 @@ export default function Hero() {
                 <p>{slide.desc}</p>
 
                 <div className="hero-buttons">
-                  <button className="btn-primary">
+                  <button className="btn-primary" onClick={handleHRServices}>
                     Human Resource Services »
                   </button>
-                  <button className="btn-outline">View Services »</button>
+                  <button className="btn-outline" onClick={handleViewServices}>
+                    View Services »
+                  </button>
                 </div>
               </div>
 

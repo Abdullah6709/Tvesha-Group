@@ -16,9 +16,9 @@ const ABOUT_DROPDOWN_ITEMS = [
 
 const SERVICES_DROPDOWN_ITEMS = [
   { label: "Recruitment & Staffing", to: "/services" },
-  { label: "HR Consutling", to: "/services" },
-  { label: "HR Technology", to: "/services" },
-  { label: "Training Consulting", to: "/services" },
+  { label: "Payroll Management", to: "/services" },
+  { label: "HR Policies & Compliance", to: "/services" },
+  { label: "Performance Management", to: "/services" },
 ];
 
 const CAREER_DROPDOWN_ITEMS = [

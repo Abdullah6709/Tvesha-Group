@@ -17,7 +17,7 @@ const INDUSTRY_DETAILS = {
   "real-estate": {
     title: "Real Estate",
     description:
-      "The Real Estate sector in India is largely divided into residential and commercial (retail, offices, and hospitality) categories. However, is largely unstructured, and has a long way to go to adopt the right recruitment policies and procedures needed in a growing and professional organization. By 2040, real estate market will grow to Rs. 65,000 crore (US$ 9.30 billion) from Rs. 12,000 crore (US$ 1.72 billion) in 2019. Real estate sector in India is expected to reach a market size of US$ 1 trillion by 2030 from US$ 120 billion in 2017 and contribute 13% to the country’s GDP by 2025. Our team of professionals possesses deep knowledge of this industry and provides a consistent, high-quality service which satisfies our clients’ needs.",
+      "The Real Estate sector in India is largely divided into residential and commercial (retail, offices, and hospitality) categories. However, is largely unstructured, and has a long way to go to adopt the right recruitment policies and procedures needed in a growing and professional organization. By 2040, real estate market will grow to Rs. 65,000 crore (US$ 9.30 billion) from Rs. 12,000 crore (US$ 1.72 billion) in 2019. Real estate sector in India is expected to reach a market size of US$ 1 trillion by 2030 from US$ 120 billion in 2024 and contribute 13% to the country’s GDP by 2025. Our team of professionals possesses deep knowledge of this industry and provides a consistent, high-quality service which satisfies our clients’ needs.",
     image: realEstateImg,
   },
 
