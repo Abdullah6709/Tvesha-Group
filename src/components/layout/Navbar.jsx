@@ -5,9 +5,9 @@ import logo from "../../assets/newlogo.png";
 
 import "./navbar.css";
 
-const PHONE = "+91-8917553919";
+const PHONE = "+91 8467000313";
 const EMAIL = "enquiry@tveshagroup.com";
-const HOURS = "Monday to Friday: 9.30 am to 6.30 PM";
+const HOURS = "Monday to Saturday: 9.30 am to 6.30 PM";
 const ABOUT_DROPDOWN_ITEMS = [
   { label: "Why Tvesha Group", to: "/about#why-tvesha" },
   { label: "Vision & Values", to: "/about#vision-values" },

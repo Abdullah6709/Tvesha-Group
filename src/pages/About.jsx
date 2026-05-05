@@ -26,7 +26,7 @@ export default function About() {
 
       <StatsSection />
       <AboutSection />
-      <TestimonialsContactSection />
+      {/* <TestimonialsContactSection /> */}
       <Footer />
     </>
   );

@@ -2,11 +2,8 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
-const bhubaneswarMap =
-  "https://maps.google.com/maps?q=20.238881,85.833450&z=14&output=embed";
-
-const noidaMap =
-  "https://maps.google.com/maps?q=28.632243,77.381172&z=14&output=embed";
+const varanasiMap =
+  "https://maps.google.com/maps?q=25.332271,82.972288&z=15&output=embed";
 
 export default function Contact() {
   return (
@@ -38,9 +35,11 @@ export default function Contact() {
               <h2>Get in Touch</h2>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. ut
-                enim ad minim veniam.
+                Have questions about our HR staffing and recruitment services? 
+                We're here to help you build exceptional teams. Whether you're 
+                looking for permanent recruitment, temporary staffing, payroll 
+                management, or customized HR solutions, our team is ready to 
+                assist you with expert guidance and support.
               </p>
             </div>
 
@@ -50,7 +49,7 @@ export default function Contact() {
                   <span className="office-help-icon" aria-hidden="true">
                     ?
                   </span>
-                  Noida Office
+                  Varanasi Office
                 </span>
                 <strong>−</strong>
               </div>
@@ -58,9 +57,9 @@ export default function Contact() {
               <div className="office-body">
                 <div>
                   <p>
-                    G Block G-75, 4th Floor, Sector 63,
+                    SA 6/186 Aktha pahariya Sarnath,
                     <br />
-                    Noida, Uttar Pradesh 201301
+                    Varanasi, Uttar Pradesh 221007
                     <br />
                     India
                     <br />
@@ -71,66 +70,15 @@ export default function Contact() {
                 </div>
 
                 <iframe
-                  title="Noida office map"
-                  src={noidaMap}
+                  title="Varanasi office map"
+                  src={varanasiMap}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
+                  style={{ width: "100%", height: "300px", border: 0 }}
+                  allowFullScreen
                 />
               </div>
-
-              <div className="office-header">
-                <span>
-                  <span className="office-help-icon" aria-hidden="true">
-                    ?
-                  </span>
-                  Bhubaneswar Office
-                </span>
-                <strong>+</strong>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="contact-form-locations section">
-        <div className="container contact-form-layout">
-          <div className="contact-form-card">
-            <p>NEED HELP?</p>
-
-            <h2>Contact Us</h2>
-
-            <form className="contact-us-form">
-              <input type="text" placeholder="Your Name" />
-              <input type="email" placeholder="Your e-mail" />
-              <input type="text" placeholder="Phone Number" />
-              <input type="text" placeholder="Subject" />
-              <textarea rows="5" placeholder="Your Massage" />
-              <button type="button">Submit Message »</button>
-            </form>
-          </div>
-
-          <div className="contact-map-stack">
-            <article>
-              <h3>Bhubaneswar Location</h3>
-
-              <iframe
-                title="Bhubaneswar location map"
-                src={bhubaneswarMap}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </article>
-
-            <article>
-              <h3>Noida Location</h3>
-
-              <iframe
-                title="Noida location map"
-                src={noidaMap}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </article>
           </div>
         </div>
       </section>

@@ -3,153 +3,207 @@ import slide2 from "../../assets/about2.png";
 
 export default function AboutSection() {
   return (
-    <section className="about-showcase section" id="about">
-      <div className="container">
-        <div className="about-layout">
-          <aside
-            className="about-visuals"
-            aria-label="About Tvesha Group visuals"
-          >
-            <img
-              className="about-top-image"
-              src={slide1}
-              alt="Tvesha Group team collaborating with professionals"
-            />
+    <>
+    <style>{`
+  .about-showcase {
+    padding: 80px 0;
+    overflow: hidden;
+  }
 
-            <div className="about-exp-card" aria-label="Experience card">
-              <h3>
-                6<span>+</span>
-              </h3>
-              <p>Years Experience</p>
-            </div>
+  .container {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 
-            <img
-              className="about-middle-image"
-              src={slide2}
-              alt="Human resource and talent acquisition concept"
-            />
-            <div className="about-accent-line" aria-hidden="true" />
-          </aside>
+  .about-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 60px;
+    align-items: start;
+  }
 
-          <article className="about-content">
-            <p className="about-kicker">ABOUT US</p>
-            <h2>HR Staffing & Recruitment Consultancy</h2>
+  .about-visuals {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
 
-            <p>
-             <strong>Tvesha Group</strong> is an HR consulting firm focused on helping businesses build strong teams and efficient HR systems. We work closely with our clients to understand their needs and deliver practical, result-driven solutions.
-            </p>
+  .about-top-image,
+  .about-middle-image {
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+  }
 
-            
+  .about-exp-card {
+    position: absolute;
+    top: 35%;
+    right: -20px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    z-index: 2;
+  }
 
-            <ul className="about-domain-list">
-              <li>Permanent Recruitment</li>
-              <li>Temporary & Contract Staffing</li>
-              <li>Payroll Management & Compliance</li>
-              <li>Employee Training & Development</li>
-              <li>Recruitment Process Outsourcing (RPO)</li>
-            </ul>
+  .about-exp-card h3 {
+    margin: 0;
+    font-size: 32px;
+  }
 
-            <h3>Why Choose Tvesha Group?</h3>
-            <p>
-              Our experienced team combines deep domain knowledge with a
-              client-first approach to deliver personalized, high-impact
-              recruitment solutions. We go beyond filling roles — we build
-              lasting partnerships that drive sustainable business success.
-            </p>
+  .about-exp-card p {
+    margin: 6px 0 0;
+    font-size: 14px;
+  }
 
-            <ul>
-              <li>
-                <strong>Industry-Specific Expertise</strong>: Deep understanding
-                across IT, finance, healthcare, manufacturing, FMCG, real
-                estate, and more — sourcing niche talent that fits your exact
-                needs.
-              </li>
-              <li>
-                <strong>Client-Centric Focus</strong>: We invest time in
-                understanding your culture, goals, and challenges to ensure
-                perfect candidate alignment and a seamless experience.
-              </li>
-              <li>
-                <strong>Speed without Compromise</strong>: Agile processes
-                deliver quality candidates quickly and efficiently.
-              </li>
-              <li>
-                <strong>Integrity & Confidentiality</strong>: Highest ethical
-                standards and complete data protection at every step.
-              </li>
-              <li>
-                <strong>Cost-Effective & Scalable</strong>: Flexible models that
-                optimize your budget while maintaining excellence.
-              </li>
-            </ul>
+  .about-content h2 {
+    font-size: 42px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
 
-            <p>
-              Whether you're scaling rapidly, replacing key roles, or
-              outsourcing HR functions,  Tvesha Group is your trusted partner
-              for building high-performing teams.
-            </p>
+  .about-content h3 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-size: 24px;
+  }
 
-            <h3>Our Vision</h3>
-            <p>
-              To be the preferred HR staffing and recruitment partner,
-              empowering organizations worldwide to create exceptional teams
-              that drive innovation and growth.
-            </p>
+  .about-content p,
+  .about-content li {
+    font-size: 16px;
+    line-height: 1.8;
+  }
 
-            <h3>Our Core Values</h3>
-            <ul>
-              <li>
-                <strong>Integrity</strong> — Doing the right thing, always.
-              </li>
-              <li>
-                <strong>Client-Centricity</strong> — Your success is our top
-                priority.
-              </li>
-              <li>
-                <strong>Excellence</strong> — Striving for the highest quality
-                in every interaction.
-              </li>
-              <li>
-                <strong>Innovation</strong> — Continuously evolving to meet
-                changing market needs.
-              </li>
-              <li>
-                <strong>Collaboration</strong> — Harnessing the power of
-                teamwork.
-              </li>
-              <li>
-                <strong>Diversity & Inclusion</strong> — Championing diverse
-                perspectives and equitable workplaces.
-              </li>
-              <li>
-                <strong>Professional Growth</strong> — Supporting development
-                for clients, candidates, and our own team.
-              </li>
-            </ul>
+  .about-content ul {
+    padding-left: 20px;
+  }
 
-            <h3>Domain Expertise</h3>
-            <p>
-              Backed by a large talent pool, cutting-edge tools, and seasoned
-              professionals, we excel in delivering targeted HR solutions —
-              locally and globally.
-            </p>
+  /* Tablet */
+  @media (max-width: 992px) {
+    .about-layout {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
 
-            <h3>Partner with Tvesha Group Today</h3>
-            <p>
-              Discover the difference with <strong>Tvesha Group</strong> —
-              where your human capital objectives meet customized strategies,
-              professionalism, and real results.
-            </p>
+    .about-content h2 {
+      font-size: 34px;
+    }
 
-            <p>
-              <strong>Let’s build exceptional teams together.</strong>
-              <br />
-              Reach out now to discuss your hiring needs and elevate your
-              organization to new heights.
-            </p>
-          </article>
+    .about-exp-card {
+      top: 30%;
+      right: 10px;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 576px) {
+    .about-showcase {
+      padding: 50px 0;
+    }
+
+    .container {
+      padding: 0 15px;
+    }
+
+    .about-content h2 {
+      font-size: 28px;
+    }
+
+    .about-content h3 {
+      font-size: 20px;
+    }
+
+    .about-content p,
+    .about-content li {
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .about-exp-card {
+      position: relative;
+      top: auto;
+      right: auto;
+      margin-top: -10px;
+      width: fit-content;
+    }
+
+    .about-exp-card h3 {
+      font-size: 26px;
+    }
+  }
+`}</style>
+
+      <section className="about-showcase" id="about">
+        <div className="container">
+          <div className="about-layout">
+            <aside
+              className="about-visuals"
+              aria-label="About Tvesha Group visuals"
+            >
+              <img
+                className="about-top-image"
+                src={slide1}
+                alt="Tvesha Group team collaborating with professionals"
+              />
+
+              <div className="about-exp-card" aria-label="Experience card">
+                <h3>
+                  2<span>+</span>
+                </h3>
+                <p>Years Experience</p>
+              </div>
+
+              <img
+                className="about-middle-image"
+                src={slide2}
+                alt="Human resource and talent acquisition concept"
+              />
+
+              <div className="about-accent-line" />
+            </aside>
+
+            <article className="about-content">
+              <p className="about-kicker">ABOUT US</p>
+              <h2>HR Staffing & Recruitment Consultancy</h2>
+
+              <p>
+                <strong>Tvesha Group</strong> is an HR consulting firm focused
+                on helping businesses build strong teams and efficient HR
+                systems.
+              </p>
+
+              <ul className="about-domain-list">
+                <li>Permanent Recruitment</li>
+                <li>Temporary & Contract Staffing</li>
+                <li>Payroll Management & Compliance</li>
+                <li>Employee Training & Development</li>
+                <li>Recruitment Process Outsourcing (RPO)</li>
+              </ul>
+
+              <h3>Why Choose Tvesha Group?</h3>
+              <p>
+                Our experienced team combines deep domain knowledge with a
+                client-first approach to deliver personalized, high-impact
+                recruitment solutions.
+              </p>
+
+              <h3>Our Vision</h3>
+              <p>
+                To be the preferred HR staffing and recruitment partner.
+              </p>
+
+              <h3>Our Core Values</h3>
+              <ul>
+                <li><strong>Integrity</strong> — Doing the right thing.</li>
+                <li><strong>Excellence</strong> — Quality in every interaction.</li>
+                <li><strong>Innovation</strong> — Adapting to market needs.</li>
+                <li><strong>Collaboration</strong> — Power of teamwork.</li>
+              </ul>
+            </article>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

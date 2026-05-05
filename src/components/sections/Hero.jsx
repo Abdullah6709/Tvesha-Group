@@ -29,14 +29,14 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, [slides.length]);
 
-  // Navigation handler
+  // Navigation handler for View Services button
   const handleViewServices = () => {
     navigate("/services");
   };
 
-  // Optional: Navigation handler for Human Resource Services
+  // Navigation handler for Human Resource Services button - now navigates to /services
   const handleHRServices = () => {
-    navigate("/hr-services"); // Change to your desired route
+    navigate("/services"); // Changed to /services
   };
 
   return (

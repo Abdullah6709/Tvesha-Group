@@ -11,7 +11,7 @@ const statsData = [
     icon: GiCoffeeCup,
   },
   {
-    value: "600+",
+    value: "100+",
     label: "Successfully Careers",
     icon: GiProgression,
   },

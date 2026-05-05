@@ -52,7 +52,7 @@ export default function Footer() {
             <h3>Our Location</h3>
             <ul className="footer-list">
               <li>📍SA 6/186 Aktha pahariya Sarnath Varanasi, Uttar Pradesh 221007 India</li>
-              <li>📞 +91 12345 67890</li>
+              <li>📞 +91 8467000313</li>
               <li>✉️ info@tveshagroup.com</li>
             </ul>
           </div>
